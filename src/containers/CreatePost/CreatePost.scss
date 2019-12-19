@@ -1,0 +1,12 @@
+.CreatePost{
+  flex-grow: 1;
+  background: linear-gradient(to right, #c02425, #f0cb35);
+  .container{
+    display: flex;
+    flex-direction: column;
+    h1{
+      text-align: center;
+    }
+  }
+  
+}
