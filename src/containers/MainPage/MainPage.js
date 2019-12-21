@@ -9,13 +9,13 @@ const MainPage = () => {
 
   useEffect(() => {
     getPosts();
-  },[])
+  },[posts])
 
   return (
     <div className='MainPage'>
       <div className='container'>
         <h1>My blog <MdBookmarkBorder/> </h1>
-        <PostsList posts={posts}/>
+        {posts && <PostsList posts={posts}/>}
       </div>
     </div>
   )
